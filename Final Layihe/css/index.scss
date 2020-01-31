@@ -1,97 +1,281 @@
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  li {
+    list-style: none;
   }
-ul{
-    li{
-        list-style: none;
-    }
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-a{
-    text-decoration: none;
-    
+a {
+  text-decoration: none;
 }
 ::placeholder {
-    color: #CCCCCC;
-     font-size: 0.8em;
-  }
+  color: #cccccc;
+  font-size: 0.8em;
+}
+a:hover {
+  text-decoration: none;
+}
 
 /////////////////////////HEADER//////////////////////////////
 
-.sns_topheader{
-    height: 3em;
-    background-color: #FAFAFA;
-    border-top: 5px solid #E31E24;
+.sns_topheader {
+  height: 3em;
+  background-color: #fafafa;
+  border-top: 5px solid #e31e24;
 
-    ul{
-       
+  ul {
+    li {
+      a {
+        font-size: 0.8em;
+        margin: 7px;
+        color: #666666;
+        text-decoration: none;
 
-        li{
-           
-            a{
-                font-size: 0.8em;
-                margin: 7px;
-                color: #666666;
-                text-decoration: none;
-               
-                i{
-                    color: #F47376;
-                    font-size: 1.3em;
-                }
-            }
+        i {
+          color: #f47376;
+          font-size: 1.3em;
         }
+      }
     }
+  }
 
-    select{
-        border: none;
-        background: transparent;
-        outline: none;
-        
-    }
+  select {
+    border: none;
+    background: transparent;
+    outline: none;
+  }
 }
 
-.sns_header{
-    input{
-        width: 100%;
-        height: 2.1em;
-        -webkit-appearance:button;
-        outline: none;
-       
+.sns_header {
+  input {
+    width: 100%;
+    height: 2.1em;
+    -webkit-appearance: button;
+    outline: none;
+  }
+  .header_icons {
+    a {
+      font-size: 2.2em;
+      color: #cccccc;
+      margin-left: 0.3em;
     }
-    .header_icons{
-        a{
-            font-size: 2.2em;
-            color: #CCCCCC;
-            margin-left: 0.3em;
-        }
+  }
+  .search {
+    font-size: 1.5em;
+    color: #cccccc;
+    a {
+      color: #cccccc;
     }
-    .search{
-        font-size: 1.5em;
-         color: #CCCCCC;
-         a{
-            color: #CCCCCC;
-        }
-        a :hover{
-            background: #c0392b;
-            transition-duration: 0.7s;
-        }
+    a :hover {
+      background: #c0392b;
+      transition-duration: 0.7s;
     }
+  }
 }
 
-.sns_menu{
-    .nav{
-        ul{
-            li{
-                margin-left: 1em;
-            }
+.sns_menu {
+  background-color: #888888;
+  height: 2.1em;
+  .nav {
+    ul {
+      #moda {
+        border-right: 1px solid #999;
+      }
+      li {
+        margin-left: 1em;
+        padding: 4px;
+        border-left: 1px solid #999;
+
+        a {
+          color: white;
+          margin-left: 0.6em;
+          font-size: 0.8em;
+          letter-spacing: 1px;
         }
+      }
     }
-   
+  }
 }
 
 /////////////////////////////////////////////////////////////
+
+/////////////////////////ADVERTISING////////////////////////
+
+.advertising {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+
+  .col-6 {
+    border-left: 1px dashed #666666;
+  }
+  #b-right {
+    border-right: 1px dashed #666666;
+  }
+  p {
+    font-size: 0.8em;
+    margin-top: 1em;
+  }
+}
+
+////////////////////////////////////////////////////////////
+
+////////////////////PRODUCT/////////////////////////////////
+.Product {
+  .product-nav {
+    a {
+      color: #666666;
+      padding: 0.6em;
+      font-size: 0.8em;
+      border-top: 1px solid #dddddd;
+      border-bottom: 1px solid #dddddd;
+      transition-duration: 0.3s;
+    }
+    a:hover {
+      background: #eeeeee;
+    }
+  }
+
+  .percent {
+    width: 3em;
+    height: 2.7em;
+    background: #cd2228;
+    border-radius: 6%;
+    p {
+      margin-top: 0.5em;
+      color: white;
+      text-align: center;
+    }
+  }
+  .text-muted {
+    font-size: 14px;
+  }
+  .font-weight-bold {
+    font-size: 1.1em;
+    color: #424242;
+  }
+}
+.any{
+  .card {
+    transition-duration: 0.3s;
+  }
+  .card:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    border: 1px solid blue;
+  }
+}
+
+
+.any-more {
+  text-align: center;
+  .button {
+    border: none;
+    width: 15%;
+    height: 2.5em;
+    border-radius: 2em;
+    transition-duration: 0.3s;
+  }
+  .button:hover {
+    background: #3498db;
+    color: #ecf0f1;
+  }
+}
+.women-perfume {
+  .perfume-list {
+    h5{
+      color: #3CABDA;
+      text-align: center;
+      cursor: pointer;
+    }
+    ul {
+      background: #F9F9F9;
+      li {
+        border-bottom: 1px solid #EEEEEE ;
+        padding: 0.5em;
+        font-size: 12px;
+        a{
+          color: black;
+        }
+        
+      }
+    }
+  }
+  .col-9{
+    padding: 0;
+    .carousel{
+      .card{
+        a{
+          color: #666;
+          margin-top: 5px;
+          line-height: 20px;
+          height: 20px;
+          display: block;
+          overflow: hidden;
+          font-size: 12px;
+        }
+      }
+      
+    }
+  }
+  
+}
+
+.owl-prev,.owl-next{
+  display: none;
+}
+
+.discount{
+  height: 2.6em;
+}
+////////////////////////////////////////////////////////////
+
+
+
+
+////////////////////FOOTER/////////////////////////////////////
+
+footer{
+  background: #EEEEEE ;
+  .foot{
+    border-bottom: 1px solid #DDDDDD;
+  }
+  li{
+    list-style: circle;
+    margin-left: 1.2em;
+    font-size: 14px;
+  }
+  .social{
+    ul{
+      li{
+        list-style: none;
+        text-align: center;
+        
+      }
+    }
+  }
+  .info{
+    ul{
+      li{
+        list-style: none;
+        a{
+          color: black;
+        }
+        a:hover{
+          color: blue;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+///////////////////////////////////////////////////////////////

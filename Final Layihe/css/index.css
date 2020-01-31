@@ -18,29 +18,33 @@ a {
 }
 
 ::-webkit-input-placeholder {
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 0.8em;
 }
 
 :-ms-input-placeholder {
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 0.8em;
 }
 
 ::-ms-input-placeholder {
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 0.8em;
 }
 
 ::placeholder {
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 0.8em;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .sns_topheader {
   height: 3em;
-  background-color: #FAFAFA;
-  border-top: 5px solid #E31E24;
+  background-color: #fafafa;
+  border-top: 5px solid #e31e24;
 }
 
 .sns_topheader ul li a {
@@ -51,7 +55,7 @@ a {
 }
 
 .sns_topheader ul li a i {
-  color: #F47376;
+  color: #f47376;
   font-size: 1.3em;
 }
 
@@ -70,17 +74,17 @@ a {
 
 .sns_header .header_icons a {
   font-size: 2.2em;
-  color: #CCCCCC;
+  color: #cccccc;
   margin-left: 0.3em;
 }
 
 .sns_header .search {
   font-size: 1.5em;
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 .sns_header .search a {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 .sns_header .search a :hover {
@@ -89,7 +93,181 @@ a {
           transition-duration: 0.7s;
 }
 
+.sns_menu {
+  background-color: #888888;
+  height: 2.1em;
+}
+
+.sns_menu .nav ul #moda {
+  border-right: 1px solid #999;
+}
+
 .sns_menu .nav ul li {
   margin-left: 1em;
+  padding: 4px;
+  border-left: 1px solid #999;
+}
+
+.sns_menu .nav ul li a {
+  color: white;
+  margin-left: 0.6em;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+.advertising {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.advertising .col-6 {
+  border-left: 1px dashed #666666;
+}
+
+.advertising #b-right {
+  border-right: 1px dashed #666666;
+}
+
+.advertising p {
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+.Product .product-nav a {
+  color: #666666;
+  padding: 0.6em;
+  font-size: 0.8em;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.Product .product-nav a:hover {
+  background: #eeeeee;
+}
+
+.Product .percent {
+  width: 3em;
+  height: 2.7em;
+  background: #cd2228;
+  border-radius: 6%;
+}
+
+.Product .percent p {
+  margin-top: 0.5em;
+  color: white;
+  text-align: center;
+}
+
+.Product .text-muted {
+  font-size: 14px;
+}
+
+.Product .font-weight-bold {
+  font-size: 1.1em;
+  color: #424242;
+}
+
+.any .card {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.any .card:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  border: 1px solid blue;
+}
+
+.any-more {
+  text-align: center;
+}
+
+.any-more .button {
+  border: none;
+  width: 15%;
+  height: 2.5em;
+  border-radius: 2em;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.any-more .button:hover {
+  background: #3498db;
+  color: #ecf0f1;
+}
+
+.women-perfume .perfume-list h5 {
+  color: #3CABDA;
+  text-align: center;
+  cursor: pointer;
+}
+
+.women-perfume .perfume-list ul {
+  background: #F9F9F9;
+}
+
+.women-perfume .perfume-list ul li {
+  border-bottom: 1px solid #EEEEEE;
+  padding: 0.5em;
+  font-size: 12px;
+}
+
+.women-perfume .perfume-list ul li a {
+  color: black;
+}
+
+.women-perfume .col-9 {
+  padding: 0;
+}
+
+.women-perfume .col-9 .carousel .card a {
+  color: #666;
+  margin-top: 5px;
+  line-height: 20px;
+  height: 20px;
+  display: block;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.owl-prev, .owl-next {
+  display: none;
+}
+
+.discount {
+  height: 2.6em;
+}
+
+footer {
+  background: #EEEEEE;
+}
+
+footer .foot {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+footer li {
+  list-style: circle;
+  margin-left: 1.2em;
+  font-size: 14px;
+}
+
+footer .social ul li {
+  list-style: none;
+  text-align: center;
+}
+
+footer .info ul li {
+  list-style: none;
+}
+
+footer .info ul li a {
+  color: black;
+}
+
+footer .info ul li a:hover {
+  color: blue;
 }
 /*# sourceMappingURL=index.css.map */
