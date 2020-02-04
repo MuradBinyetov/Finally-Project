@@ -89,7 +89,7 @@ a:hover {
         border-right: 1px solid #999;
       }
       li {
-        margin-left: 1em;
+        
         padding: 4px;
         border-left: 1px solid #999;
 
@@ -161,7 +161,7 @@ a:hover {
     color: #424242;
   }
 }
-.any{
+.any {
   .card {
     transition-duration: 0.3s;
   }
@@ -171,7 +171,6 @@ a:hover {
     border: 1px solid blue;
   }
 }
-
 
 .any-more {
   text-align: center;
@@ -189,29 +188,28 @@ a:hover {
 }
 .women-perfume {
   .perfume-list {
-    h5{
-      color: #3CABDA;
+    h5 {
+      color: #3cabda;
       text-align: center;
       cursor: pointer;
     }
     ul {
-      background: #F9F9F9;
+      background: #f9f9f9;
       li {
-        border-bottom: 1px solid #EEEEEE ;
+        border-bottom: 1px solid #eeeeee;
         padding: 0.5em;
         font-size: 12px;
-        a{
+        a {
           color: black;
         }
-        
       }
     }
   }
-  .col-9{
+  .col-9 {
     padding: 0;
-    .carousel{
-      .card{
-        a{
+    .carousel {
+      .card {
+        a {
           color: #666;
           margin-top: 5px;
           line-height: 20px;
@@ -221,53 +219,51 @@ a:hover {
           font-size: 12px;
         }
       }
-      
     }
   }
-  
 }
 
-.owl-prev,.owl-next{
+.owl-prev,
+.owl-next {
   display: none;
 }
 
-.discount{
+.discount {
   height: 2.6em;
 }
 ////////////////////////////////////////////////////////////
 
-
-
-
 ////////////////////FOOTER/////////////////////////////////////
 
-footer{
-  background: #EEEEEE ;
-  .foot{
-    border-bottom: 1px solid #DDDDDD;
+footer {
+  background: #eeeeee;
+  .foot {
+    border-bottom: 1px solid #dddddd;
   }
-  li{
+  li {
     list-style: circle;
     margin-left: 1.2em;
     font-size: 14px;
   }
-  .social{
-    ul{
-      li{
+  .social {
+    ul {
+      li {
         list-style: none;
         text-align: center;
-        
+       
       }
     }
   }
-  .info{
-    ul{
-      li{
+  .info {
+    ul {
+      li {
         list-style: none;
-        a{
+        display: inline-block;
+        a {
           color: black;
+          text-align: center;
         }
-        a:hover{
+        a:hover {
           color: blue;
         }
       }
@@ -275,7 +271,23 @@ footer{
   }
 }
 
-
-
-
 ///////////////////////////////////////////////////////////////
+
+.menu {
+  display: none;
+  .sub-menu {
+    ul {
+      li {
+          a {
+            color: #ECFFFF;
+          }
+        margin-left: 5%;
+        margin-top: 5%;
+      }
+      li:hover{
+        background-color: #e31e24;
+      }
+    }
+    background-color: #888888;
+  }
+}

@@ -103,7 +103,6 @@ a:hover {
 }
 
 .sns_menu .nav ul li {
-  margin-left: 1em;
   padding: 4px;
   border-left: 1px solid #999;
 }
@@ -199,17 +198,17 @@ a:hover {
 }
 
 .women-perfume .perfume-list h5 {
-  color: #3CABDA;
+  color: #3cabda;
   text-align: center;
   cursor: pointer;
 }
 
 .women-perfume .perfume-list ul {
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 
 .women-perfume .perfume-list ul li {
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #eeeeee;
   padding: 0.5em;
   font-size: 12px;
 }
@@ -232,7 +231,8 @@ a:hover {
   font-size: 12px;
 }
 
-.owl-prev, .owl-next {
+.owl-prev,
+.owl-next {
   display: none;
 }
 
@@ -241,11 +241,11 @@ a:hover {
 }
 
 footer {
-  background: #EEEEEE;
+  background: #eeeeee;
 }
 
 footer .foot {
-  border-bottom: 1px solid #DDDDDD;
+  border-bottom: 1px solid #dddddd;
 }
 
 footer li {
@@ -261,13 +261,36 @@ footer .social ul li {
 
 footer .info ul li {
   list-style: none;
+  display: inline-block;
 }
 
 footer .info ul li a {
   color: black;
+  text-align: center;
 }
 
 footer .info ul li a:hover {
   color: blue;
+}
+
+.menu {
+  display: none;
+}
+
+.menu .sub-menu {
+  background-color: #888888;
+}
+
+.menu .sub-menu ul li {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.menu .sub-menu ul li a {
+  color: #ECFFFF;
+}
+
+.menu .sub-menu ul li:hover {
+  background-color: #e31e24;
 }
 /*# sourceMappingURL=index.css.map */
