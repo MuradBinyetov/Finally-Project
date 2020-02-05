@@ -350,6 +350,11 @@
             </div>
         </div>
 
+
+        <div class="chevron">
+            <a href="#"><i id="chevron" class="mdi mdi-chevron-double-up"></i></a>
+        </div>
+
         <div class="container">
             <div class="any row d-flex justify-content-around">
                 <div class="card col-12 col-md-4 col-lg-2 mb-4" style="width: 18rem;">
@@ -839,6 +844,7 @@
     </script>
 
     <script>
+
         $(document).ready(function () {
 
             $('.first-button').on('click', function () {
@@ -854,6 +860,21 @@
                 $('.animated-icon3').toggleClass('open');
             });
         });
+
+    </script>
+
+    <script>
+    
+    
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+        $('#chevron').show();
+    }
+    else{
+        $('#chevron').hide();
+    }
+
+})
     </script>
 
 

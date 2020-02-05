@@ -41,6 +41,19 @@ a:hover {
   text-decoration: none;
 }
 
+.chevron i {
+  position: fixed;
+  right: 2%;
+  font-size: 60px;
+  z-index: 30;
+  display: none;
+  top: 80%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .sns_topheader {
   height: 3em;
   background-color: #fafafa;
