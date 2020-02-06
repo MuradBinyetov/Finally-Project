@@ -460,6 +460,26 @@ footer .info ul li a:hover {
   position: relative;
 }
 
+.sale_product .img {
+  border: 1px solid grey;
+}
+
+.sale_product .title {
+  border-bottom: 1px solid grey;
+}
+
+.sale_product .star ul li {
+  display: inline-block;
+}
+
+.sale_product .star ul li img {
+  width: 50%;
+}
+
+.sale_product .info {
+  background-color: #F5F5F5;
+}
+
 @media only screen and (max-width: 1000px) {
   .sns_menu {
     display: none;

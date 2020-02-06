@@ -497,7 +497,36 @@ footer {
   position: relative;
 }
 //////////////////////////////////////////////////////////
+////////////////////////////PRODUCT///////////////////////
 
+.sale_product{
+  .img{
+    border: 1px solid grey;
+  }
+  .title{
+    border-bottom: 1px solid grey;
+  }
+  .star{
+    ul{
+      li{
+        display: inline-block;
+        img{
+          width: 50%;
+        }
+      }
+    }
+  }
+  .info{
+    background-color: #F5F5F5;
+  }
+}
+
+
+
+
+
+
+//////////////////////////////////////////////////////////
 @media only screen and (max-width: 1000px) {
   .sns_menu {
    display: none;
