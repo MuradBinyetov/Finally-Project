@@ -500,16 +500,17 @@ footer {
 ////////////////////////////PRODUCT///////////////////////
 
 .sale_product{
+  border-bottom: 1px solid #DDDDDD;
   .img{
-    border: 1px solid grey;
+    border: 1px solid #DDDDDD;
   }
   .title{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #DDDDDD;
   }
   .star{
     ul{
       li{
-        display: inline-block;
+     
         img{
           width: 50%;
         }
@@ -522,7 +523,12 @@ footer {
 }
 
 
-
+.tab-content{
+  border: 1px solid #F5F5F5;
+  td{
+    padding: 1.5%;
+  }
+}
 
 
 
@@ -560,4 +566,13 @@ footer {
      }
    }
  }
+
+ .sale_product{
+   .info{
+     li{
+       font-size: 14px;
+     }
+   }
+ }
+
 }

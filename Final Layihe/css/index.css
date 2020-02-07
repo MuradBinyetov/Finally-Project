@@ -460,16 +460,16 @@ footer .info ul li a:hover {
   position: relative;
 }
 
+.sale_product {
+  border-bottom: 1px solid #DDDDDD;
+}
+
 .sale_product .img {
-  border: 1px solid grey;
+  border: 1px solid #DDDDDD;
 }
 
 .sale_product .title {
-  border-bottom: 1px solid grey;
-}
-
-.sale_product .star ul li {
-  display: inline-block;
+  border-bottom: 1px solid #DDDDDD;
 }
 
 .sale_product .star ul li img {
@@ -478,6 +478,14 @@ footer .info ul li a:hover {
 
 .sale_product .info {
   background-color: #F5F5F5;
+}
+
+.tab-content {
+  border: 1px solid #F5F5F5;
+}
+
+.tab-content td {
+  padding: 1.5%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -507,6 +515,9 @@ footer .info ul li a:hover {
   }
   .advertising .img img {
     width: 70%;
+  }
+  .sale_product .info li {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=index.css.map */
