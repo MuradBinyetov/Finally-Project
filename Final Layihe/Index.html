@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js> </script> <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 
 <body>
@@ -63,14 +63,14 @@
         <div class="sns_header pb-2">
             <div class="container">
 
-                <div >
+                <div>
 
                     <div class="d-flex justify-content-between pt-2 col-12">
-                        
+
                         <div class="site_logo col-3 col-md-2">
                             <a href="#" title="www.from.ae"><img src="images/logo.png" alt="site logo"></a>
                         </div>
-                       
+
                         <div class="col-md-8 pt-3 input-search">
                             <input type="search" placeholder="Search for products,categories ...">
                         </div>
@@ -142,7 +142,7 @@
 
                     </div>
 
-                    
+
 
 
 
@@ -747,7 +747,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <h4>Informasiya</h4>
                     <ul>
-                        <li><a href="">Haqqımızda</a></li>
+                        <li id="zirt"><a href="">Haqqımızda</a></li>
                         <li><a href="">Bizimlə əlaqə</a></li>
                         <li><a href="">Çatdırılma</a></li>
                         <li><a href="">Ödənişlər</a></li>
@@ -805,7 +805,40 @@
 
     <!-- ------------------------------FOOTER ------------------------------->
 
+    <script>
 
+        // $("#zirt").mouseover(function () {
+        //     let Run = true;
+        //     let zirt = document.querySelector("#zirt");
+        //     let a = parseInt(getComputedStyle(zirt).marginLeft);
+        //     let interval = setInterval(() => {
+
+        //         if (Run) {
+        //             a += 1;
+        //             zirt.style.marginLeft = `${a}px`;
+        //         }
+
+
+        //         if (a == 32) {
+        //            Run=false;
+        //         }
+
+
+        //         if (Run==false) {
+        //             a -= 1;
+        //             zirt.style.marginLeft = `${a}px`;
+        //         }
+
+        //         if(a==16){
+        //             clearInterval(interval);
+        //         }
+
+        //     }, 15)
+
+        // })
+
+
+    </script>
 
 
 
@@ -861,17 +894,17 @@
     </script>
 
     <script>
-    
-    
-$(window).scroll(function () {
-    if ($(window).scrollTop() > 300) {
-        $('#chevron').show();
-    }
-    else{
-        $('#chevron').hide();
-    }
 
-})
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                $('#chevron').show();
+            }
+            else {
+                $('#chevron').hide();
+            }
+
+        })
     </script>
 
 
