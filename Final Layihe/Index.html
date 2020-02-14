@@ -75,6 +75,13 @@
                             <input type="search" placeholder="Search for products,categories ...">
                         </div>
 
+                       
+                            <!-- <div  class="secret-search">
+                                <input class="col-12" type="text">
+                                <a href="#"><i class="mdi mdi-magnify"></i></a>
+                            </div> -->
+                   
+
                         <!--Navbar-->
                         <nav class="navbar navbar-dark red lighten-1 mb-4 col-2">
 
@@ -137,7 +144,7 @@
                         </div>
 
                         <div class="search text-right mt-2 col-1 col-md-1">
-                            <a href="#" title="Go"><i class="mdi mdi-magnify"></i></a>
+                            <a id="secret" href="#" title="Go"><i class="mdi mdi-magnify"></i></a>
                         </div>
 
                     </div>
@@ -297,7 +304,6 @@
             </div>
         </div>
     </section>
-
     <!---------------------------------- Carousel ---------------------------->
 
 
@@ -804,6 +810,19 @@
 
 
     <!-- ------------------------------FOOTER ------------------------------->
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() < 1001) $("#secret").on('click', function () {
+                $(".secret-search").css({ display: "block" })
+            });
+        });
+
+    </script>
+
 
     <script>
 
