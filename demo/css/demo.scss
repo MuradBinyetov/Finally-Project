@@ -1,0 +1,40 @@
+a:hover {
+  text-decoration: none;
+}
+.footer_pages {
+  h2 {
+    color: #3cabda;
+  }
+  p {
+    font-size: 0.8em;
+    color: #909090;
+  }
+  h4 {
+    color: #909090;
+  }
+  .card {
+    h5 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      i {
+        color: orangered;
+        font-size: 3em;
+      }
+    }
+
+    a {
+      text-align: center;
+      color: #666;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.4em;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 400;
+      display: block;
+    }
+  }
+}

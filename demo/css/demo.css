@@ -1,0 +1,47 @@
+a:hover {
+  text-decoration: none;
+}
+
+.footer_pages h2 {
+  color: #3cabda;
+}
+
+.footer_pages p {
+  font-size: 0.8em;
+  color: #909090;
+}
+
+.footer_pages h4 {
+  color: #909090;
+}
+
+.footer_pages .card {
+  padding-left: 10px;
+}
+
+.footer_pages .card h5 {
+  text-align: center;
+}
+
+.footer_pages .card p {
+  text-align: center;
+}
+
+.footer_pages .card p i {
+  color: orangered;
+  font-size: 3em;
+}
+
+.footer_pages .card a {
+  text-align: center;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4em;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  display: block;
+}
+/*# sourceMappingURL=demo.css.map */
